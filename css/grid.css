@@ -20,3 +20,12 @@
     padding: 0 var(--grid-gutter);
 }
 
+.col_lead{
+    flex: 1;
+}
+
+.col_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
