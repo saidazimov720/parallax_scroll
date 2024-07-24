@@ -14,3 +14,9 @@
     display: flex;
     margin: 0 calc(var(--grid-gutter)*-1);
 }
+
+.col{
+    width: fit-content;
+    padding: 0 var(--grid-gutter);
+}
+
