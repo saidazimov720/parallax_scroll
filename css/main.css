@@ -53,3 +53,12 @@ body{
     will-change: transform;
 }
 
+.slider_item{
+    overflow: hidden;
+    transform: scale(1.25)!important;
+    transition: 2s ease !important;
+}
+
+.slider_item:not(.swiper-slide-active){
+transform: scale(1) !important;
+}
