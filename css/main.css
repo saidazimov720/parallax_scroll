@@ -62,3 +62,8 @@ body{
 .slider_item:not(.swiper-slide-active){
 transform: scale(1) !important;
 }
+.slider_ui{
+    position: absolute;
+    z-index: 10;
+    inset: 0;
+}
