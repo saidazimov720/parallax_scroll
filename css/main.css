@@ -13,3 +13,8 @@ html, body{
     background-color: #2B474B;
     color: var(--white-color);
 }
+
+@font-face {
+    font-family: montserrat-g;
+    src: url(../fonts/Montserrat-Regular.woff2);
+}
