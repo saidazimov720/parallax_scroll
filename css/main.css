@@ -40,3 +40,16 @@ body{
     font-size: 16px;
     font-family: montserrat-g, sans-serif;
 }
+
+.slider{
+    height: 100%;
+}
+
+.slider_layer{
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+}
+
