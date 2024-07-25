@@ -1,3 +1,9 @@
 @import url(../libs/btn/anim-menu-btn.css);
 @import url(../css/vars.css);
 @import url(../css/grid.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
