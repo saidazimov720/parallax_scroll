@@ -35,3 +35,8 @@ html, body{
 	src: url(../fonts/Montserrat-SemiBold.woff2);
 	font-weight: 600;
 }
+
+body{
+    font-size: 16px;
+    font-family: montserrat-g, sans-serif;
+}
