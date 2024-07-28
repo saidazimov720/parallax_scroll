@@ -130,3 +130,12 @@ transform: scale(1) !important;
     font-size: 0.65em;
     cursor: pointer;
 }
+.button_top{
+    background-color: transparent;
+    border-color: var(--green-color);
+    margin: 0 2em 0 3em;
+}
+.buttton_main{
+    margin-top: 3em;
+    padding: 1.6em 3.5em;
+}
