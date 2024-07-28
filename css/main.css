@@ -71,3 +71,10 @@ transform: scale(1) !important;
 .top_line{
     padding: 3.2em 0;
 }
+.logo{
+    display: block;
+}
+.logo img{
+    display: block;
+    width: 15.5em;
+}
