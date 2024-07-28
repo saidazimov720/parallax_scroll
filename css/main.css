@@ -200,3 +200,17 @@ transform: scale(1) !important;
     opacity: 0;
     transition: opacity 1s ease, top 1.25s ease;
 }
+.header_content_slide.active, .header_content_info{
+    opacity: 1;
+    top: 0;
+}
+.header_content_slide:has(* + .active .header_content_info),
+.header_content_slide.active + * .header_content_info{
+    top: 18em;
+}
+.slider_ui{
+    pointer-events: none;
+}
+.logo, .main-menu, .button, .submenu{
+    pointer-events: auto;
+}
