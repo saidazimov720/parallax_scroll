@@ -147,3 +147,8 @@ transform: scale(1) !important;
     --anim-menu-btn-gap:0.195em;
     --anim-menu-btn-width: 1.08em;
 }
+.header_wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
