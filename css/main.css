@@ -78,3 +78,7 @@ transform: scale(1) !important;
     display: block;
     width: 15.5em;
 }
+.main-menu li{
+    list-style-type: none;
+    display: inline-block;
+}
