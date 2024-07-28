@@ -107,3 +107,13 @@ transform: scale(1) !important;
     margin: 0 7.25px;
     visibility: hidden;
 }
+.main-menu li.active > *,
+.main-menu li:hover > *{
+    color: var(--white-color);
+}
+.main-menu li.active > *::before, 
+.main-menu li:hover > *::before, 
+.main-menu li.active > *::after, 
+.main-menu li:hover > *::after{
+    visibility: visible;
+}
