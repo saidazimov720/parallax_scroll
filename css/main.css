@@ -178,3 +178,16 @@ transform: scale(1) !important;
 .header_bottom{
     min-height: 120px;
 }
+.letters .letter{
+    text-shadow: 25px 0 35px rgba(0 0 0 / 0.4);
+    position: relative;
+    margin-left: calc(var(--index) * -2.65);
+    right: calc(var(--index) * -2.65);
+    opacity: 0;
+    top: -5em;
+    transition: opacity var(--transition), top var(--transition);
+}
+.header_content_slide.active .letter{
+    opacity: 1;
+    top: 0;
+}
