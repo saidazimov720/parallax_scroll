@@ -12,3 +12,8 @@ document.querySelectorAll('.header_content h1').forEach(e =>{
 		l.setAttribute('style', `z-index: -${ i }; transition-duration: ${ i/5 + 1 }s`);
 	})
 })
+swiper.on('slideChange', function () {
+    document.querySelectorAll('.header_content_slide').forEach(function(e,i){
+        return swiper.activeIndex === i ? e.classList.add('active') : e.classList.remove('active')
+    })
+})
