@@ -139,3 +139,11 @@ transform: scale(1) !important;
     margin-top: 3em;
     padding: 1.6em 3.5em;
 }
+.button:hover{
+    background-color: var(--green-color);
+}
+.submenu{
+    --anim-menu-btn-color:var(--gray-color);
+    --anim-menu-btn-gap:0.195em;
+    --anim-menu-btn-width: 1.08em;
+}
