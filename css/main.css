@@ -117,3 +117,16 @@ transform: scale(1) !important;
 .main-menu li:hover > *::after{
     visibility: visible;
 }
+
+.button{
+    padding: 1.05em 2.6em;
+    color: var(--white-color);
+    background-color: var(--green-color);
+    border: 1.5px solid transparent;
+    border-radius: 600em;
+    text-decoration: none;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    font-size: 0.65em;
+    cursor: pointer;
+}
