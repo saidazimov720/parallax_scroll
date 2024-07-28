@@ -82,3 +82,21 @@ transform: scale(1) !important;
     list-style-type: none;
     display: inline-block;
 }
+.main-menu li > *{
+    color: var(--gray-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.725em;
+    letter-spacing: 0.25em;
+    position: relative;
+}
+
+.main-menu li > *::before, 
+.main-menu li > *::after{
+    content: '';
+    display: inline-block;
+    height: 2px;
+    background-color: var(--green-color);
+    width: 11.25px;
+}
