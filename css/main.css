@@ -175,3 +175,6 @@ transform: scale(1) !important;
     line-height: 1.4;
     display: inline-block;
 }
+.header_bottom{
+    min-height: 120px;
+}
